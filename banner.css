@@ -1,2 +1,21 @@
-.school{align-items: center;}
-h1{text-align: center; top: 10%;}
+.banner {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+    position: absolute; /* Position the background text */
+
+    color: #ffffff; /* Grey text */
+    width: 100%; /* Full width */
+        }
+   
+
+  .text{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    color: #ffffff; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    top: 25%;
+  }
