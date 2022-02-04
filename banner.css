@@ -1,21 +1,15 @@
-.banner {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-    position: absolute; /* Position the background text */
-
-    color: #ffffff; /* Grey text */
-    width: 100%; /* Full width */
-        }
-   
-
-  .text{
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    color: #ffffff; /* Grey text */
-    width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    top: 25%;
-  }
+.text{ width:100%;
+height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(banner2021.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(255, 255, 255); 
+font-size: 200%;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
