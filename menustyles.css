@@ -133,3 +133,22 @@
   .button:hover{
     background-color: rgb(73, 73, 73);
   }
+  .image{
+    width: 1080px;
+    height: 400px;
+    position: relative;
+}
+.image___img{
+    display: block;
+    width: 100%;
+}
+.reg{width: 1080px;
+height: 75px;
+}
+.text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    margin-bottom: 20px;
+    font-size: 200%;
+}
